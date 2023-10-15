@@ -1,0 +1,19 @@
+<table border="3">
+    <tr>
+        <td>titel</td>
+        <td>category</td>
+        <td>publication date</td>
+        <td>published</td>
+        <td>author</td>
+    </tr>
+    {% for b in book %}
+    <tr>
+        <td>{{b.titel}}</td>
+        <td>{{b.category}}</td>
+        <td>{{b.PublicationDate}}</td>
+        <td>{{b.published}}</td>
+        <td>{{b.author}}</td>
+       
+    </tr>
+    {% endfor %}
+</table>
